@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://free.bboxtype.com/embedfonts/?family=FiraGO:400,500,600,700" rel="stylesheet">
+	<title>Vite App</title>
+</head>
+<body>
+	<header
+		class="flex justify-between pt-0 pb-0 pl-4 pr-4 lg:p-4 items-center max-w-[1600px] m-auto 2xl:pl-0 2xl:pr-0">
+		<div class="hidden xl:flex gap-2">
+			<a href="https://www.facebook.com/clipartagency/" target="_blank" rel="noopener noreferrer">
+				<img src="./src/aseets/svg/icon.svg" alt="facebook">
+			</a>
+			<a href="http://twitter.com" target="_blank" rel="noopener noreferrer">
+				<img src="./src/aseets/svg/icon-1.svg" alt="twitter">
+			</a>
+			<a href="https://www.instagram.com/clipart.ge/?hl=en" target="_blank" rel="noopener noreferrer">
+				<img src="./src/aseets/svg/icon-2.svg" alt="instagram">
+			</a>
+		</div>
+		<h1 class="text-red-500 font-bold text-xl font-fira">Company logo</h1>
+		<div class="flex items-center">
+			<div class="flex items-center lg:gap-3">
+				<div class="hidden lg:flex lg:bg-gray-200 rounded-lg pl-3">
+					<input type="text" placeholder="ძიება" class="lg:bg-gray-200 p-1 ">
+					<img class="h-10" src="./src/aseets/svg/search icon.svg" />
+				</div>
+				<div class="flex items-center justify-center lg:hidden">
+					<img src="./src/aseets/svg/search icon.svg" alt="">
+				</div>
+				<div class="lg:hidden bg-gray-200 flex items-center justify-center rounded-lg ">
+					<img src="./src/aseets/svg/icon-3.svg" />
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="hidden bg-slate-200 p-4 xl:block">
+		<div class="navbar max-w-[1600px] m-auto">
+			<ul class="flex gap-1 text-gray-500 text-sm justify-between select-none">
+				<li class="cursor-pointer hover:text-gray-400">პოლიტიკა</li>
+				<li class="cursor-pointer hover:text-gray-400">საზოგადოება</li>
+				<li class="cursor-pointer hover:text-gray-400">სამართალი</li>
+				<li class="cursor-pointer hover:text-gray-400">ბიზნესი & ეკონომიკა</li>
+				<li class="cursor-pointer hover:text-gray-400">კრიმინალი</li>
+				<li class="cursor-pointer hover:text-gray-400">შემთხვევა</li>
+				<li class="cursor-pointer hover:text-gray-400">მსოფლიო</li>
+				<li class="more flex gap-1 items-center text-red-500 relative cursor-pointer 2xl:hidden">
+					<span>მეტი</span>
+					<span>
+						<img class="more-icon-svg" src="./src/aseets/svg/arrow down.svg" />
+					</span>
+					<ul
+						class="more-list z-10 absolute top-9 right-0 p-3 text-gray-500 shadow-lg hidden bg-white flex-col gap-2 rounded-lg">
+						<!-- dinamic list here -->
+					</ul>
+				</li>
+				<li class="hidden 2xl:block cursor-pointer hover:text-gray-400">სპორტი</li>
+				<li class="hidden 2xl:block cursor-pointer hover:text-gray-400">რელიგია</li>
+				<li class="hidden 2xl:block cursor-pointer hover:text-gray-400">ხელოვნება</li>
+			</ul>
+		</div>
+	</div>
+	<!-- slider -->
+	<div class="relative h-0 max-w-[1600px] m-auto">
+		<div
+			class="absolute z-10 flex top-32 right-0 left-0 lg:inset-auto lg:top-5 xl:top-[640px] 2xl:top-[695px] xl:left-10 lg:left-5 lg:gap-4 lg:bg-gray-100 lg:p-3 lg:rounded-xl items-center justify-between pl-3 pr-3">
+			<div class="left swiper-button-prev bg-white p-1 rounded-lg cursor-pointer">
+				<img src="./src/aseets/svg/arrow.svg" alt="arrow">
+			</div>
+			<div class="slide-index invisible lg:visible w-8 text-center">1/4</div>
+			<div class="right swiper-button-next bg-white p-1 rounded-lg">
+				<img class="rotate-180 cursor-pointer" src="./src/aseets/svg/arrow.svg" alt="arrow">
+			</div>
+		</div>
+		<div class="swiper">
+			<div class="swiper-wrapper max-w-[1600px] m-auto">
+				<div
+					class="swiper-slide slider w-[360px] h-280 max-w-[1600px] m-auto xl:mt-12 bg-slider1 bg-cover bg-center">
+					<div class=" h-280 lg:h-[560px] xl:h-[700px] 2xl:h-[760px]"></div>
+					<div
+						class="p-4 bg-white shadow-xl lg:absolute lg:left-0 lg:right-0 lg:m-auto lg:bottom-4 xl:pb-32 lg:w-[97%] lg:rounded-xl 2xl:w-1/2 2xl:right-auto 2xl:left-6">
+						<div class="text-xs pb-3">
+							<span class="text-red-500 font-bold">პოლიტიკა</span> &#x2022; <span
+								class="text-gray-500">18.03.2024</span>
+						</div>
+						<div class="font-bold leading-6 text-sm lg:text-2xl">
+							ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების
+							სამელიორაციო ინფრასტრუქტურული პროექტები იწყება
+						</div>
+					</div>
+				</div>
+				<div
+					class="swiper-slide slider w-[360px] h-280 max-w-[1600px] m-auto xl:mt-12 bg-slider2 bg-cover bg-center">
+					<div class=" h-280 lg:h-[560px] xl:h-[700px] 2xl:h-[760px]"></div>
+					<div
+						class="p-4 bg-white lg:absolute lg:left-0 lg:right-0 lg:m-auto lg:bottom-4 xl:pb-32 lg:w-[97%] lg:rounded-xl 2xl:w-1/2 2xl:right-auto 2xl:left-6">
+						<div class="text-xs pb-3">
+							<span class="text-red-500 font-bold">პოლიტიკა</span> &#x2022; <span
+								class="text-gray-500">18.03.2024</span>
+						</div>
+						<div class="font-bold leading-6 text-sm lg:text-2xl">
+							ახალი სატრანსპორტო ჰაბი - თურქეთმა საქართველოს საზღვართან აეროპორტი გახსნა
+						</div>
+					</div>
+				</div>
+				<div
+					class="swiper-slide slider w-[360px] h-280 max-w-[1600px] m-auto xl:mt-12 bg-slider3 bg-cover bg-center">
+					<div class=" h-280 lg:h-[560px] xl:h-[700px] 2xl:h-[760px]"></div>
+					<div
+						class="p-4 bg-white lg:absolute lg:left-0 lg:right-0 lg:m-auto lg:bottom-4 xl:pb-32 lg:w-[97%] lg:rounded-xl 2xl:w-1/2 2xl:right-auto 2xl:left-6">
+						<div class="text-xs pb-3">
+							<span class="text-red-500 font-bold">პოლიტიკა</span> &#x2022; <span
+								class="text-gray-500">18.03.2024</span>
+						</div>
+						<div class="font-bold leading-6 text-sm lg:text-2xl">
+							ხვიჩა კვარაცხელიას ფასი კვლავ გაიზარდა - Transfermarket-ის მიხედვით,
+							მისი ღირებულება ახლა 85 მილიონი ევროა
+						</div>
+					</div>
+				</div>
+				<div
+					class="swiper-slide slider w-[360px] h-280 max-w-[1600px] m-auto xl:mt-12 bg-slider4 bg-cover bg-center">
+					<div class=" h-280 lg:h-[560px] xl:h-[700px] 2xl:h-[760px]"></div>
+					<div
+						class="p-4 bg-white lg:absolute lg:left-0 lg:right-0 lg:m-auto lg:bottom-4 xl:pb-32 lg:w-[97%] lg:rounded-xl 2xl:w-1/2 2xl:right-auto 2xl:left-6">
+						<div class="text-xs pb-3">
+							<span class="text-red-500 font-bold">პოლიტიკა</span> &#x2022; <span
+								class="text-gray-500">18.03.2024</span>
+						</div>
+						<div class="font-bold leading-6 text-sm lg:text-2xl">
+							"უკრაინელებმა, გასული დღე-ღამის განმავლობაში, მოწინააღმდეგის 150-ზე
+							მეტი თავდასხმა მოიგერიეს" - რა ვითარებაა ფრონტის ხაზზე?
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- Main news -->
+			<div
+				class="p-4 pt-16 grid grid-cols-4 gap-3 lg:grid-cols-8 xl:grid-cols-12 max-w-[1600px] m-auto">
+				<div class=" bg-white shadow-xl rounded-lg col-span-4 lg:col-span-8 xl:col-start-4 xl:col-end-10 xl:row-span-2">
+					<div class="p-1">
+						<img class="rounded-lg" src="./src/aseets/images/Photo 3.png" alt="">
+					</div>
+					<div class="p-4">
+
+						<div class="font-bold leading-6 text-sm lg:text-base">
+							ჩრდილოეთ კორეამ აშშ-სა და სამხრეთ კორეის წინააღმდეგ
+							ბირთვული კონტრშეტევა დაიწყო
+						</div>
+					</div>
+					<div class="text-xs p-4 flex justify-between border-t-2">
+						<span class="text-red-500 font-bold"> ახალი ამბები</span>
+						<span class="text-gray-500">18.03.2024</span>
+					</div>
+				</div>
+				<!-- news -->
+				<div class=" bg-white shadow-xl rounded-lg col-span-4 xl:col-start-1 xl:col-end-4 xl:row-start-1 xl:row-end-1">
+					<div class="p-1">
+						<img class="rounded-lg" src="./src/aseets/images/Photo 5.png" alt="">
+					</div>
+					<div class="text-xs p-3 pb-0">
+						<span class="text-gray-500 font-bold">პოლიტიკა</span> &#x2022; <span
+							class="text-gray-500">18.03.2024</span>
+					</div>
+					<div class="p-4">
+						<div class="font-bold leading-6 text-sm">
+							ჩრდილოეთ კორეამ აშშ-სა და სამხრეთ კორეას
+							ბირთვული იარაღით ემუქრება
+						</div>
+					</div>
+				</div>
+				<div class=" bg-white shadow-xl rounded-lg col-span-4 xl:col-start-10 xl:col-end-13 xl:row-start-1">
+					<div class="p-1">
+						<img class="rounded-lg" src="./src/aseets/images/Photo 4.png" alt="">
+					</div>
+					<div class="text-xs p-3 pb-0">
+						<span class="text-gray-500 font-bold">პოლიტიკა</span> &#x2022; <span
+							class="text-gray-500">18.03.2024</span>
+					</div>
+					<div class="p-4">
+						<div class="font-bold leading-6 text-sm">
+							საქართველოს მორაგბეთა ნაკრები რაგბი ევროპის გამარჯვებულია
+						</div>
+					</div>
+				</div>
+				<div class=" bg-white shadow-xl rounded-lg col-span-4 xl:col-start-1 xl:col-end-4 row-start-2">
+					<div class="p-1">
+						<img class="rounded-lg" src="./src/aseets/images/Photo 2.png" alt="">
+					</div>
+					<div class="text-xs p-3 pb-0">
+						<span class="text-gray-500 font-bold">პოლიტიკა</span> &#x2022; <span
+							class="text-gray-500">18.03.2024</span>
+					</div>
+					<div class="p-4">
+						<div class="font-bold leading-6 text-sm">
+							დღეს კიბოს სკრინინგის მხარდამჭერი კონცერტი გაიმართება
+						</div>
+					</div>
+				</div>
+				<div class=" bg-white shadow-xl rounded-lg col-span-4 xl:col-start-10 xl:col-end-13 xl:row-start-2">
+					<div class="p-1">
+						<img class="rounded-lg" src="./src/aseets/images/Photo 1.png" alt="">
+					</div>
+					<div class="text-xs p-3 pb-0">
+						<span class="text-gray-500 font-bold">პოლიტიკა</span> &#x2022; <span
+							class="text-gray-500">18.03.2024</span>
+					</div>
+					<div class="p-4">
+						<div class="font-bold leading-6 text-sm">
+							უკრაინა დიდი კონტრეშეტევისთვის ემზადება
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="module" src="/main.js"></script>
+</body>
+</html>
