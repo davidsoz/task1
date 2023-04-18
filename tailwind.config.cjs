@@ -19,10 +19,10 @@ module.exports = {
 			'fira': ['firaGO', 'sans-serif'],
 		},
 		backgroundImage: {
-			"slider1": "url(./src/aseets/sliders/Photo.png)",
-			"slider2": "url(./src/aseets/sliders/Photo 14.png)",
-			"slider3": "url(./src/aseets/sliders/Photo 15.png)",
-			"slider4": "url(./src/aseets/sliders/Photo 16.png)",
+			"slider1": "url('./src/aseets/sliders/Photo.png')",
+			"slider2": "url('./src/aseets/sliders/Photo 14.png')",
+			"slider3": "url('./src/aseets/sliders/Photo 15.png')",
+			"slider4": "url('./src/aseets/sliders/Photo 16.png')",
 		}
 	},
 	plugins: [],
